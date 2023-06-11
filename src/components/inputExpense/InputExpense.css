@@ -1,0 +1,64 @@
+.expense-controls,
+.add-expense-button {
+  display: flex;
+  background-color: rgb(150, 120, 200);
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  row-gap: 20px;
+}
+.upper-container {
+  display: flex;
+  column-gap: 50px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.expense-action button,
+.add-expense-button button {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  border-radius: 16px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.submit {
+  margin-right: 20px;
+}
+.expense-action button:hover,
+.add-expense-button button:hover {
+  background-color: rgb(33, 32, 32);
+  cursor: pointer;
+}
+input {
+  border-radius: 3px;
+  border-style: none;
+  height: 30px;
+  width: 20rem;
+  max-width: 100%;
+}
+.add-expense-button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+/* to hide number arrows*/
+/* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
